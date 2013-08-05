@@ -1,0 +1,20 @@
+<package>
+  <name>easy_markers</name>
+  <version>0.1.1</version>
+  <description>A library to assist in publishing markers easily in Python</description>
+  <author>David V. Lu!!</author>
+  <maintainer email="davidvlu@gmail.com">David V. Lu!!</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/easy_markers</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <run_depend>rospy</run_depend>
+  <run_depend>visualization_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>interactive_markers</run_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
